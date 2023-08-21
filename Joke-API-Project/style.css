@@ -1,0 +1,18 @@
+body {
+  box-sizing: border-box;
+}
+
+.joke-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.joke {
+  max-width: 300px;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid black;
+}
