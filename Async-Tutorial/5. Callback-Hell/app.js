@@ -14,7 +14,7 @@ const getTodos = (resource, callback) => {
   request.send();
 };
 
-// this is an example of callback hell, in which callbacks are nested within callbacks
+// This is an example of callback hell, in which callbacks are nested within callbacks
 // to the point where it becomes messy and unmanagable.
 
 getTodos("todos/luigi.json", (err, data) => {
